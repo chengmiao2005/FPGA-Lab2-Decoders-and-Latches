@@ -1,4 +1,8 @@
-# Verilog Decoders and Latch Inference
+# FPGA Lab 2 — Decoders and Latch Inference
+
+**Verilog · Decoders · Combinational Logic · Latch Inference**
+
+Former repository name: `FPGA2`.
 
 Six decoder exercises compare independent `if` statements, `if/else`, and `case` branches. Some variants deliberately retain a previous output to illustrate latch behavior. 译码器写法与锁存行为对比实验。
 
@@ -26,7 +30,6 @@ vvp -n decoder.vvp
 
 Use the matching `tb_decoder_case_*` name for another example. The original testbenches print expected and actual values, and some generate VCD traces. Review their output: not every reported failure returns a failing process exit code. Synthesis reports are not included.
 
-
-[Full project portfolio](https://github.com/chengmiao2005/FPGAfinalproject/blob/main/docs/PORTFOLIO.md) · [Original-to-current file map](docs/FILE_MAP.md)
+[FPGA lab index](https://github.com/chengmiao2005/FPGA-Labs) · [Original-to-current file map](docs/FILE_MAP.md)
 
 [Validation record](docs/VALIDATION.md)
